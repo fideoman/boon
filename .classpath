@@ -13,11 +13,6 @@
 	<classpathentry kind="src" path="slumberdb/slumberdb-service-model/src/integration/java"/>
 	<classpathentry kind="src" path="slumberdb/slumberdb-service-model/src/main/java"/>
 	<classpathentry kind="src" path="slumberdb/slumberdb-service/src/main/java"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="boon/files/invoke-1.0-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="boon/files/node-1.0-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
@@ -39,5 +34,11 @@
 	<classpathentry kind="lib" path="lib/mongo-java-driver-2.9.3.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.43.jar"/>
 	<classpathentry kind="lib" path="lib/junit-4.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<accessrules>
+			<accessrule kind="accessible" pattern="sun/misc/**"/>
+			<accessrule kind="accessible" pattern="com/sun/management/**"/>
+		</accessrules>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
