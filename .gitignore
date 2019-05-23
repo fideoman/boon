@@ -44,3 +44,4 @@ machines/machine3/snapshot/29_30007.ss
 !gradle-wrapper.jar
 
 build/
+/bin/

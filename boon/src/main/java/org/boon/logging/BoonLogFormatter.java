@@ -30,8 +30,6 @@ package org.boon.logging;
 
 import org.boon.Exceptions;
 import org.boon.primitive.CharBuf;
-import sun.misc.JavaLangAccess;
-import sun.misc.SharedSecrets;
 
 import java.io.PrintWriter;
 import java.util.logging.LogRecord;
